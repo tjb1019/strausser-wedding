@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+@import "styles/variables";
+@import "styles/mixins";
+
+html {
+  font-size: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  background: url('assets/dusty-background.png');
+  color: $primary;
+
+  @include tablet-up() {
+    padding: 75px 200px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+span,
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg {
+  display: inline-block;
+}

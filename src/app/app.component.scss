@@ -1,0 +1,11 @@
+@import "styles/variables";
+
+main {
+  height: 100%;
+  padding: 50px;
+  background: white;
+  box-shadow: $box-shadow-light;
+  border: 2px solid $subtle;
+  border-radius: 2px;
+  text-align: center;
+}
