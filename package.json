@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href=https://tylerburkhardt.com/",
-    "deploy": "ngh",
+    "build": "ng build --prod --base-href=http://tylerburkhardt.com/strausser-wedding/",
+    "deploy": "npx angular-cli-ghpages --branch master",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
