@@ -15,7 +15,7 @@ export class AppComponent {
 
   constructor(private router: Router) {}
   
-  ngOnInit() {
+  ngAfterViewInit() {
     const path = window.location.pathname;
     this.activeRoute = ROUTES.find(route => route.link === path);
   }

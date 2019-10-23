@@ -9,7 +9,7 @@ import { RegistryComponent } from './components/registry/registry.component';
 
 const routes: Routes = [
   {
-    path: 'wedding',
+    path: '',
     component: WeddingComponent,
   },
   {
@@ -24,11 +24,6 @@ const routes: Routes = [
     path: 'registry',
     component: RegistryComponent,
   },
-  {
-    path: '',
-    redirectTo: 'wedding',
-    pathMatch: 'full'
-  }
 ];
 
 @NgModule({

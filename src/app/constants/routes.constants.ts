@@ -1,7 +1,7 @@
 export const ROUTES = [
   {
     text: 'Our Wedding',
-    link: '/wedding',
+    link: '/',
   },
   {
     text: 'Details',
