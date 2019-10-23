@@ -24,6 +24,11 @@ const routes: Routes = [
     path: 'registry',
     component: RegistryComponent,
   },
+  {
+    path: '',
+    redirectTo: 'wedding',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
