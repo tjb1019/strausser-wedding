@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+
+.venue {
+  font-family: $cursive;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.address-line {
+  padding: 5px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  text-align: left;
+
+  .ceremony b,
+  .cocktails b,
+  .reception b {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}

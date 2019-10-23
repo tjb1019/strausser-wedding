@@ -1,0 +1,14 @@
+@import "../../../styles//variables";
+
+.title {
+  font-family: $cursive;
+}
+
+.page-text {
+  margin: 5px 0;
+  font-weight: bold;
+
+  &.light {
+    color: $secondary;
+  }
+}

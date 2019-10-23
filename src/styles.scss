@@ -1,5 +1,6 @@
 @import "styles/variables";
 @import "styles/mixins";
+@import "styles/images";
 
 html {
   font-size: 10px;
@@ -13,13 +14,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: $font;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
   background: url('assets/dusty-background.png');
   color: $primary;
 
-  @include tablet-up() {
+  @include laptop-up() {
     padding: 75px 200px;
   }
 }

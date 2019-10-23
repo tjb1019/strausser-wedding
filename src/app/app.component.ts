@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { ROUTES } from './constants/routes.constants';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'strausser-wedding';
+  routes = ROUTES;
+  activeRoute;
+
+  constructor(private router: Router) {}
+  
+  ngOnInit() {
+    const path = window.location.pathname;
+    this.activeRoute = ROUTES.find(route => route.link === path);
+  }
+
+  navigate(route) {
+    this.activeRoute = route;
+    this.router.navigate([route.link]);
+  }
 }
