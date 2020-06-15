@@ -5,6 +5,7 @@ import { WeddingComponent } from './components/wedding/wedding.component';
 import { DetailsComponent } from './components/details/details.component';
 import { TravelComponent } from './components/travel/travel.component';
 import { RegistryComponent } from './components/registry/registry.component';
+import { RsvpComponent } from './components/rsvp/rsvp.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'details',
     component: DetailsComponent,
+  },
+  {
+    path: 'rsvp',
+    component: RsvpComponent,
   },
   {
     path: 'travel',

@@ -9,6 +9,7 @@ import { WeddingComponent } from './components/wedding/wedding.component';
 import { DetailsComponent } from './components/details/details.component';
 import { TravelComponent } from './components/travel/travel.component';
 import { RegistryComponent } from './components/registry/registry.component';
+import { RsvpComponent } from './components/rsvp/rsvp.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegistryComponent } from './components/registry/registry.component';
     WeddingComponent,
     DetailsComponent,
     TravelComponent,
-    RegistryComponent
+    RegistryComponent,
+    RsvpComponent,
   ],
   imports: [
     BrowserModule,

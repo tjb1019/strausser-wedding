@@ -8,6 +8,10 @@ export const ROUTES = [
     link: '/details',
   },
   {
+    text: 'RSVP',
+    link: '/rsvp',
+  },
+  {
     text: 'Travel',
     link: '/travel',
   },
